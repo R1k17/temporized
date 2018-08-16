@@ -1,0 +1,2 @@
+# temporized
+Thinkful Fullstack capstone 
