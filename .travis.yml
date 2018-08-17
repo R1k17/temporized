@@ -1,5 +1,12 @@
- language: node_js
- node_js: node
- cache:
-   directories:
-     - node_modules
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: qdaRKbXTc28BwgfLkiL1tPw4EhNBOV454Q7yIH9MSPMJiIb0Sqcije7MV8Wp+n9xXNM75N/OYpzKFJEajakAOVKDnQhlrz4OB3QmrrPtwwhP+0bygA1ZUc8QOdW5NzpBpi+gHJgCboiorgf7EayZatYZwF7I88tOvab82d3aWlCRCVzohrLBZGl6r9gywikVphXQkCefDPVUU18EWquYd3tqMqB5KCKsrLXZfaEEB1GX3TAuM/m4PuBdNZsDAA5Z/HoZ3quWRrGhL23rxxDgxpdqXJi1b8/P456AOV4rHEqwWnXCy2GPHaRWxRF8vaAXkUu9QCgycR8VoJOp0CNmbGLBH/2X4oZ+JGFqXKBYoJFtrEMkbudb/emDhGRG96UmX8kTwFcfFKFuSOqCU40I1hQkfQS5ev+wWJ1uX5+zsCAVtOzsdK0gyESdO61FVsGYnKPhgradnBwP7m9gKaJsxKZWtmqflXGHev6pXDdMepwNVfYXq0jlO9QxvfkigysGgBtU45i7ykOOD6Qd7nh50VaevwcHofjg6NopIujnogqpD1GaxHyPCERv0i5krFnXrj9e1YMw0qd9g9HMmYXnBsaUQb7SIzKRSWEaQ9kv7xVCs1D3EG6SCCwVQWm4241n16iISywHThx/AnvPC9lvC7h9hjw1e3FJKbrUV3JGwQQ=
+  app: agile-spire-27653
+  on:
+    repo: R1k17/temporized
